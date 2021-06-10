@@ -9,9 +9,9 @@
           uses: actions/checkout@v2    
 
         - name: Login via Az module
-            uses: azure/login@v1
-            with:
-              creds: ${{secrets.AZURE_CREDENTIALS}}
+          uses: azure/login@v1
+          with:
+            creds: ${{secrets.AZURE_CREDENTIALS}}
 
         - name: CREATE APP BAKED VM IMAGE
           id: imageBuilder
