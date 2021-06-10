@@ -1,4 +1,4 @@
-  name: create_custom_vm_image
+    name: create_custom_vm_image
     on: workflow_dispatch
 
     jobs:
